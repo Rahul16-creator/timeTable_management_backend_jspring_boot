@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/timetable"
+    username: root
+    password: root
+
+  jpa:
+    show-sql: true
+    hibernate.ddl-auto: update
+
+jwt:
+  secret:
+    key: timeTable
+
+server:
+  port: 3000
+
+#  # SMTP
+#
+#  spring.mail.host=smtp.gmail.com
+#  spring.mail.port=587
+#  spring.mail.username=campaignmanagement.noreply@gmail.com
+#  spring.mail.password=Codingmart3
+#  spring.mail.properties.mail.smtp.auth=true
+#  spring.mail.properties.mail.smtp.starttls.enable=true
